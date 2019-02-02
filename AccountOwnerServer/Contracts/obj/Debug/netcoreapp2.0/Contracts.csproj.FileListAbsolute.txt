@@ -1,0 +1,9 @@
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.0\Contracts.deps.json
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.0\Contracts.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.0\Contracts.pdb
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.0\Contracts.csprojAssemblyReference.cache
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.0\Contracts.AssemblyInfoInputs.cache
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.0\Contracts.AssemblyInfo.cs
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.0\Contracts.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.0\Contracts.pdb
