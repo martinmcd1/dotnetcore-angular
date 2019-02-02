@@ -5,3 +5,54 @@
 2019-02-02 01:17:27.9761 INFO Returned all owners from database.
 2019-02-02 01:29:37.8188 INFO Returned all owners from database.
 2019-02-02 01:30:06.3521 INFO Returned all owners from database.
+2019-02-02 10:44:30.1463 INFO Returned all owners from database.
+2019-02-02 10:44:38.1288 INFO Returned all owners from database.
+2019-02-02 10:55:14.4177 INFO Here is info message from our values controller.
+2019-02-02 10:55:14.4478 DEBUG Here is debug message from our values controller.
+2019-02-02 10:55:14.4478 WARN Here is warn message from our values controller.
+2019-02-02 10:55:14.4478 ERROR Here is error message from our values controller.
+2019-02-02 10:55:21.9066 INFO Here is info message from our values controller.
+2019-02-02 10:55:21.9066 DEBUG Here is debug message from our values controller.
+2019-02-02 10:55:21.9066 WARN Here is warn message from our values controller.
+2019-02-02 10:55:21.9066 ERROR Here is error message from our values controller.
+2019-02-02 10:56:44.5612 ERROR Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at AccountOwnerServer.Controllers.ValuesController.<Get>d__3.MoveNext() in D:\Development\dotnetcore-angular\AccountOwnerServer\AccountOwnerServer\Controllers\ValuesController.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at AccountOwnerServer.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in D:\Development\dotnetcore-angular\AccountOwnerServer\AccountOwnerServer\Startup.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at AccountOwnerServer.CustomExceptionMiddleware.ExceptionMiddleware.<InvokeAsync>d__3.MoveNext() in D:\Development\dotnetcore-angular\AccountOwnerServer\AccountOwnerServer\CustomExceptionMiddleware\ExceptionMiddleware.cs:line 25

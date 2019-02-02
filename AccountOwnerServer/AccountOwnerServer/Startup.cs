@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using AccountOwnerServer.Extensions;
+using Contracts;
 using Entities;
 using Entities.Models;
 using Microsoft.AspNetCore.Builder;
@@ -18,7 +19,7 @@ namespace AccountOwnerServer
         public Startup(IConfiguration configuration)
         {
             LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
-
+  
 
             Configuration = configuration;
         }
@@ -47,7 +48,7 @@ namespace AccountOwnerServer
             }
 
             app.UseCors("CorsPolicy");
-
+            app.ConfigureCustomExceptionMiddleware();
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
                 ForwardedHeaders = ForwardedHeaders.All
