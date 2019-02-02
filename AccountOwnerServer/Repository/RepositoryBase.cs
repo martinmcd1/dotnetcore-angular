@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
@@ -16,14 +18,14 @@ namespace Repository
             this.RepositoryContext = repositoryContext;
         }
 
-        public IEnumerable<T> FindAll()
+        public async Task<IEnumerable<T>> FindAllAsync()
         {
-            return this.RepositoryContext.Set<T>();
+            return await RepositoryContext.Set<T>().ToListAsync();
         }
 
-        public IEnumerable<T> FindByCondition(Expression<Func<T, bool>> expression)
+        public async Task<IEnumerable<T>> FindByConditionAync(Expression<Func<T, bool>> expression)
         {
-            return this.RepositoryContext.Set<T>().Where(expression);
+            return await RepositoryContext.Set<T>().Where(expression).ToListAsync();
         }
 
         public void Create(T entity)
@@ -41,9 +43,9 @@ namespace Repository
             this.RepositoryContext.Set<T>().Remove(entity);
         }
 
-        public void Save()
+        public async Task SaveAsync()
         {
-            this.RepositoryContext.SaveChanges();
+            await RepositoryContext.SaveChangesAsync();
         }
     }
 }
