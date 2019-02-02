@@ -4,6 +4,7 @@ using System.Linq;
 using Contracts;
 using Entities;
 using Entities.ExtendedModels;
+using Entities.Extensions;
 using Entities.Models;
 
 namespace Repository
@@ -34,6 +35,25 @@ namespace Repository
                 Accounts = RepositoryContext.Accounts
                     .Where(a => a.OwnerId == ownerId)
             };
+        }
+        public void CreateOwner(Owner owner)
+        {
+            owner.Id = Guid.NewGuid();
+            Create(owner);
+            Save();
+        }
+        
+ 
+        public void UpdateOwner(Owner dbOwner, Owner owner)
+        {
+            dbOwner.Map(owner);
+            Update(dbOwner);
+            Save();
+        }
+        public void DeleteOwner(Owner owner)
+        {
+            Delete(owner);
+            Save();
         }
     }
 }

@@ -57,6 +57,11 @@
         <e p="ExtendedModels" t="Include">
           <e p="Class1.cs" t="Include" />
         </e>
+        <e p="Extensions" t="Include">
+          <e p="EntityExtensions.cs" t="Include" />
+          <e p="OwnerExtensions.cs" t="Include" />
+        </e>
+        <e p="IEntity.cs" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20190202003519_accountOwner.cs" t="Include" />
           <e p="20190202003519_accountOwner.Designer.cs" t="Include" />
