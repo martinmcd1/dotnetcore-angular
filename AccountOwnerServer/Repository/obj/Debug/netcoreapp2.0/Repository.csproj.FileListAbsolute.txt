@@ -1,0 +1,14 @@
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Repository.deps.json
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Repository.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Repository.pdb
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Contracts.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Entities.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Contracts.pdb
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\bin\Debug\netcoreapp2.0\Entities.pdb
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.csprojAssemblyReference.cache
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.csproj.CoreCompileInputs.cache
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.AssemblyInfoInputs.cache
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.AssemblyInfo.cs
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.csproj.CopyComplete
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\Repository\obj\Debug\netcoreapp2.0\Repository.pdb

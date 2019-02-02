@@ -1,9 +1,12 @@
 ﻿using System;
 using System.IO;
 using AccountOwnerServer.Extensions;
+using Entities;
+using Entities.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NLog;
@@ -29,6 +32,9 @@ namespace AccountOwnerServer
 
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureSqlContext(Configuration);
+            	
+            services.ConfigureRepositoryWrapper();
             services.AddMvc();
         }
 

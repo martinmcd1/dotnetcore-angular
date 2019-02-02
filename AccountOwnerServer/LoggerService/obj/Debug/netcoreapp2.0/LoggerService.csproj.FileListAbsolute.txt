@@ -10,3 +10,5 @@ D:\Development\dotnetcore-angular\AccountOwnerServer\LoggerService\bin\Debug\net
 D:\Development\dotnetcore-angular\AccountOwnerServer\LoggerService\obj\Debug\netcoreapp2.0\LoggerService.csproj.CopyComplete
 D:\Development\dotnetcore-angular\AccountOwnerServer\LoggerService\obj\Debug\netcoreapp2.0\LoggerService.dll
 D:\Development\dotnetcore-angular\AccountOwnerServer\LoggerService\obj\Debug\netcoreapp2.0\LoggerService.pdb
+D:\Development\dotnetcore-angular\AccountOwnerServer\LoggerService\bin\Debug\netcoreapp2.0\Entities.dll
+D:\Development\dotnetcore-angular\AccountOwnerServer\LoggerService\bin\Debug\netcoreapp2.0\Entities.pdb
