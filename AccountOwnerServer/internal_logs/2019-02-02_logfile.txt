@@ -2,3 +2,4 @@
 2019-02-02 00:19:08.1998 DEBUG Here is debug message from our values controller.
 2019-02-02 00:19:08.1998 WARN Here is warn message from our values controller.
 2019-02-02 00:19:08.1998 ERROR Here is error message from our values controller.
+2019-02-02 01:17:27.9761 INFO Returned all owners from database.
